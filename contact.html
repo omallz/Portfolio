@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
-</head>
-<body>
-    <header>
-        <h1>Jason O'Malley</h1>
-        <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div>
-            <h2>Contact</h2>
-            <form id="contact-form">
-                <span>Name</span>
-                <input type="text">
-                <span>Email</span>
-                <input type="email">
-                <span>Message</span>
-                <input type="submit" value="Submit">
-            </form>
-            <textarea form="contact-form">Enter Text</textarea>
-        </div>
-    </main>
-    <footer>
-        <p>Copyright</p>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Contact</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class="header-main-container">
+			<div class="header">
+				<div class="header-content">
+					<div id="name-container">
+						<a href="index.html"><h1>Jason O'Malley</h1></a>
+					</div> 
+					<ul id="main-nav">
+						<li><a href="index.html">About</a></li>
+						<li class="main-nav-divider">|</li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li class="main-nav-divider">|</li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-content">
+				<div class="padding">
+					<h2 class="sub-heading">Contact</h2>
+					<form id="contact-form">
+						<p class="form-label">Name</p>
+						<input type="text">
+						<p class="form-label">Email</p>
+						<input type="email">
+						<p class="form-label">Message</p>
+						<textarea form="contact-form"></textarea>
+						<br>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</div>    
+		<div class="footer-container">
+			<p>Copyright &copy; Jason O'Malley 2019</p>
+		</div>
+	</body>
 </html>
