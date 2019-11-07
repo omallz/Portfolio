@@ -6,52 +6,86 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Portfolio</title>
 		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- JavaScript required for mobile buttons - See JS in https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
+		<script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
 	</head>
 	<body>
-		<div class="header-main-container">
-			<div class="header">
-				<div class="header-content">
-					<div id="name-container">
-						<a href="index.html"><h1>Jason O'Malley</h1></a>
-					</div> 
-					<ul id="main-nav">
-						<li><a href="index.html">About</a></li>
-						<li class="main-nav-divider">|</li>
-						<li><a href="#">Portfolio</a></li>
-						<li class="main-nav-divider">|</li>
-						<li><a href="contact.html">Contact</a></li>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-navigation" aria-controls="header-navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" id="nav-name" href="index.html">Jason O'Malley</a>
+				<div class="collapse navbar-collapse" id="header-navigation">
+					<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">About</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
 					</ul>
+				</div>	
+			</div>	
+		</nav>
+		<div class="main-global-container">
+			<div class="container main-content-container border">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="content-block">
+							<h2 class="sub-heading">Portfolio</h2>
+							<div class="row mb-3">
+								<div class="col-sm-6 col-md-4 mb-4">
+									<div class="image-container">
+										<img class="img-fluid" src="assets/images/technics-q-c-640-480-1.jpg" alt="" title="">
+										<div class="portfolio-label">Hangman</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-4 mb-4">
+									<div class="image-container">
+										<img class="img-fluid" src="assets/images/technics-q-c-640-480-2.jpg" alt="" title="">
+										<div class="portfolio-label">RPG Game</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-4 mb-4">
+									<div class="image-container">
+										<img class="img-fluid" src="assets/images/technics-q-c-640-480-5.jpg" alt="" title="">
+										<div class="portfolio-label">Trivia Game</div>
+									</div>	
+								</div>
+								<div class="col-sm-6 col-md-4 mb-4">
+									<div class="image-container">
+										<img class="img-fluid" src="assets/images/technics-q-c-640-480-7.jpg" alt="" title="">
+										<div class="portfolio-label">Rutgers Info Widget</div>
+									</div>
+								</div>	
+								<div class="col-sm-6 col-md-4 mb-4">
+									<div class="image-container">
+										<img class="img-fluid" src="assets/images/technics-q-c-640-480-9.jpg" alt="" title="">
+										<div class="portfolio-label">Rock Paper Scissors</div>
+									</div>	
+								</div>
+							</div>	
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="main-content">
-				<div class="padding">
-					<h2 class="sub-heading">About</h2>
-					<div class="image-container">
-						<img class="portfolio-image" src="assets/images/technics-q-c-640-480-1.jpg" alt="" title="">
-						<div class="portfolio-label">Hangman</div>
-					</div>
-					<div class="image-container">
-						<img class="portfolio-image" src="assets/images/technics-q-c-640-480-2.jpg" alt="" title="">
-						<div class="portfolio-label">RPG Game</div>
-					</div>
-					<div class="image-container">
-						<img class="portfolio-image" src="assets/images/technics-q-c-640-480-5.jpg" alt="" title="">
-						<div class="portfolio-label">Trivia Game</div>
-					</div>
-					<div class="image-container">
-						<img class="portfolio-image" src="assets/images/technics-q-c-640-480-7.jpg" alt="" title="">
-						<div class="portfolio-label">Rutgers Info Widget</div>
-					</div>
-					<div class="image-container">
-						<img class="portfolio-image" src="assets/images/technics-q-c-640-480-9.jpg" alt="" title="">
-						<div class="portfolio-label">Rock Paper Scissors</div>
-					</div>
-				</div>
-			</div>
-		</div>    
-		<div class="footer-container">
-			<p>Copyright &copy; Jason O'Malley 2019</p>
 		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 footer-content">
+						<span>Copyright &copy; Jason O'Malley 2019</span>
+					</div>
+				</div>
+			</div>	
+		</footer>
 	</body>
 </html>
 

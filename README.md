@@ -19,3 +19,4 @@ Creating a branch and pushing it remotely required a minor amount of my own time
 ## Credits
 
 Shout out to Trilogy education for the instructions and assets.
+Bootstrap for the documentation.
